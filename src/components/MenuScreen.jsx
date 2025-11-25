@@ -7,9 +7,9 @@ export default function MenuScreen({ onSelect }) {
         <h1 className="museum-title">Phòng Chống Tốt - Chiến Đấu Giỏi</h1>
       </div>
       <div className="menu-images">
-        <img src="/assets/img/Picture4.png" alt="Hình ảnh 4" className="img-fluid" />
-        <img src="/assets/img/Picture5.png" alt="Hình ảnh 5" className="img-fluid" />
-        <img src="/assets/img/Picture6.png" alt="Hình ảnh 6" className="img-fluid" />
+        <img src="/img/Picture4.png" alt="Hình ảnh 4" className="img-fluid" />
+        <img src="/img/Picture5.png" alt="Hình ảnh 5" className="img-fluid" />
+        <img src="/img/Picture6.png" alt="Hình ảnh 6" className="img-fluid" />
       </div>
       <div className="menu-screen">
         <h2 className="menu-title">NỘI DUNG</h2>

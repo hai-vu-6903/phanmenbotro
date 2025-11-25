@@ -12,7 +12,7 @@ export default function WelcomeScreen({ onStart }) {
         <Container>
           <div className="d-flex align-items-center justify-content-center">
             <img 
-              src="assets/img/logo.png" 
+              src="/img/logo.png" 
               alt="Logo 1" 
               className="d-none d-md-block" 
               style={{ 
@@ -33,7 +33,7 @@ export default function WelcomeScreen({ onStart }) {
               <span style={{ color: 'gold' }}>★</span>
             </h1>
             <img 
-              src="assets/img/logo2.png" 
+              src="/img/logo2.png" 
               alt="Logo 2" 
               className="d-none d-md-block" 
               style={{ 

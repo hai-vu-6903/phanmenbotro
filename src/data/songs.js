@@ -1,73 +1,73 @@
 export const nghiLeSongs = [
   {
     title: "Kèn Nghiệm",
-    file: "/assets/nhacNghiLe/kennghiem.mp3",
+    file: "/nhacNghiLe/kennghiem.mp3",
   },
   {
     title: "Nhạc Chào Mừng",
-    file: "/assets/nhacNghiLe/nhacchaomung.mp3",
+    file: "/nhacNghiLe/nhacchaomung.mp3",
   },
   {
     title: "Quốc Ca",
-    file: "/assets/nhacNghiLe/quocca.mp3",
+    file: "/nhacNghiLe/quocca.mp3",
   },
   {
     title: "Quốc Tế Ca",
-    file: "/assets/nhacNghiLe/quocteca.mp3",
+    file: "/nhacNghiLe/quocteca.mp3",
   },
   {
     title: "Đoàn Ca",
-    file: "/assets/nhacNghiLe/doanca.mp3",
+    file: "/nhacNghiLe/doanca.mp3",
   },
   {
     title: "Nhạc Chào Chính Phủ",
-    file: "/assets/nhacNghiLe/nhacchaochinhphu.mp3",
+    file: "/nhacNghiLe/nhacchaochinhphu.mp3",
   },
   {
     title: "Nhạc Chào Tướng",
-    file: "/assets/nhacNghiLe/nhacchaotuong.mp3",
+    file: "/nhacNghiLe/nhacchaotuong.mp3",
   },
   {
     title: "Trống Rung",
-    file: "/assets/nhacNghiLe/trongrung.mp3",
+    file: "/nhacNghiLe/trongrung.mp3",
   },
   {
     title: "Diễu Binh, Diễu Hành",
-    file: "/assets/nhacNghiLe/dieubinhdieuhanh.mp3",
+    file: "/nhacNghiLe/dieubinhdieuhanh.mp3",
   },
   {
     title: "Trống Hành Tiến",
-    file: "/assets/nhacNghiLe/tronghanhtien.mp3",
+    file: "/nhacNghiLe/tronghanhtien.mp3",
   },
   {
     title: "Nhạc Trao Thưởng",
-    file: "/assets/nhacNghiLe/nhactraothuong.mp3",
+    file: "/nhacNghiLe/nhactraothuong.mp3",
   },
   {
     title: "Trống Tang",
-    file: "/assets/nhacNghiLe/trongtang.mp3",
+    file: "/nhacNghiLe/trongtang.mp3",
   },
   {
     title: "Hành Khúc Tang Lễ",
-    file: "/assets/nhacNghiLe/hanhkhuctangle.mp3",
+    file: "/nhacNghiLe/hanhkhuctangle.mp3",
   },
   {
     title: "Hồn Tử Sĩ",
-    file: "/assets/nhacNghiLe/hontusi.mp3",
+    file: "/nhacNghiLe/hontusi.mp3",
   },
 ];
 
 export const baiHatSongs = [
   {
     title: "Tiến Quân Ca",
-    fileVoice: "/assets/baiHatQuyDinh/tien_quan_ca.mp3",
-    fileInst: "/assets/baiHatQuyDinh/tien_quan_ca_nhac.mp3",
-    lyricsPdf: "/assets/baiHatQuyDinh/lyrics/tien_quan_ca.pdf",
+    fileVoice: "/baiHatQuyDinh/tien_quan_ca.mp3",
+    fileInst: "/baiHatQuyDinh/tien_quan_ca_nhac.mp3",
+    lyricsPdf: "/baiHatQuyDinh/lyrics/tien_quan_ca.pdf",
 
     author: "Văn Cao",
     authorBirthYear: 1923,
     authorDeathYear: 1995,
-    authorImage: "/assets/authorImages/van_cao.jpg",
+    authorImage: "/authorImages/van_cao.jpg",
     songYear: 1944,
     description: [
       "“Tiến Quân Ca” là Quốc ca Nước Cộng hòa xã hội chủ nghĩa Việt Nam, do nhạc sĩ Văn Cao (1923–1995) sáng tác vào năm 1944.",
@@ -87,14 +87,14 @@ export const baiHatSongs = [
 
   {
     title: "Quốc Tế Ca",
-    fileVoice: "/assets/baiHatQuyDinh/quocte_ca.mp3",
-    fileInst: "/assets/baiHatQuyDinh/quocte_ca_nhac.mp3",
-    lyricsPdf: "/assets/baiHatQuyDinh/lyrics/quoc_te_ca.pdf",
+    fileVoice: "/baiHatQuyDinh/quocte_ca.mp3",
+    fileInst: "/baiHatQuyDinh/quocte_ca_nhac.mp3",
+    lyricsPdf: "/baiHatQuyDinh/lyrics/quoc_te_ca.pdf",
 
     author: "Eugène Pottier (lời), Pierre Degeyter (nhạc)",
     authorBirthYear: 1816,
     authorDeathYear: 1887,
-    authorImage: "/assets/authorImages/eugene_pottier.jpg",
+    authorImage: "/authorImages/eugene_pottier.jpg",
     songYear: 1871,
     description: [
       "Bài thơ L’Internationale, dịch nghĩa là “Quốc tế” được Potier viết năm 1871, sau khi Công xã Paris bị đàn áp dẫn đến thất bại, chất chứa nỗi xót thương hàng triệu người nô lệ trên thế giới đang phải sống trong đói rét.",
@@ -113,14 +113,14 @@ export const baiHatSongs = [
 
   {
     title: "Chào Mừng Đảng Cộng Sản Việt Nam",
-    fileVoice: "/assets/baiHatQuyDinh/chao_mung_dang_cong_san_viet_nam.mp3",
-    fileInst: "/assets/baiHatQuyDinh/chao_mung_dang_cong_san_viet_nam_nhac.mp3",
-    lyricsPdf: "/assets/baiHatQuyDinh/lyrics/chao_mung_dang_cong_san_viet_nam.pdf",
+    fileVoice: "/baiHatQuyDinh/chao_mung_dang_cong_san_viet_nam.mp3",
+    fileInst: "/baiHatQuyDinh/chao_mung_dang_cong_san_viet_nam_nhac.mp3",
+    lyricsPdf: "/baiHatQuyDinh/lyrics/chao_mung_dang_cong_san_viet_nam.pdf",
 
     author: "Đỗ Minh",
     authorBirthYear: 1926,
     authorDeathYear: 2008,
-    authorImage: "/assets/authorImages/do_minh.jpg",
+    authorImage: "/authorImages/do_minh.jpg",
     songYear: 1951,
     description: [
       "Ca khúc “Vừng trời đông”, sau đổi thành “Chào mừng Đảng Lao động Việt Nam” - nay là “Chào mừng Đảng Cộng sản Việt Nam”, được ông viết trong thời gian tham gia các chiến dịch Biên giới. Năm 1951, trong không khí phấn khởi, tự hào vì Đảng chuẩn bị Đại hội toàn quốc lần thứ 2, chính thức tuyên bố ra công khai, tiếp tục lãnh đạo toàn dân kháng chiến cứu nước. Ngay đêm hôm đó, Đỗ Minh đã hoàn thành ca khúc ban đầu lấy tên “Vừng trời đông”, sau đồi thành “Chào mừng Đảng Lao động Việt Nam” (và nay là “Chào mừng Đảng Cộng sản Việt Nam”).",
@@ -140,14 +140,14 @@ export const baiHatSongs = [
 
   {
     title: "Ca Ngợi Hồ Chủ Tịch",
-    fileVoice: "/assets/baiHatQuyDinh/ca_ngoi_ho_chu_tich.mp3",
-    fileInst: "/assets/baiHatQuyDinh/ca_ngoi_ho_chu_tich_nhac.mp3",
-    lyricsPdf: "/assets/baiHatQuyDinh/lyrics/ca_ngoi_ho_chu_tich.pdf",
+    fileVoice: "/baiHatQuyDinh/ca_ngoi_ho_chu_tich.mp3",
+    fileInst: "/baiHatQuyDinh/ca_ngoi_ho_chu_tich_nhac.mp3",
+    lyricsPdf: "/baiHatQuyDinh/lyrics/ca_ngoi_ho_chu_tich.pdf",
 
     author: "Lưu Hữu Phước",
     authorBirthYear: 1921,
     authorDeathYear: 1989,
-    authorImage: "/assets/authorImages/luu_huu_phuoc.jpg",
+    authorImage: "/authorImages/luu_huu_phuoc.jpg",
     songYear: 1947,
     description: [
       "Trước Cách mạng tháng Tám năm 1945, Lưu Hữu Phước là một trong những sinh viên Nam Bộ tham gia phong trào hoạt động yêu nước và đấu tranh cách mạng. Được gặp Bác Hồ là niềm tin và hy vọng thầm kín trong lòng của lớp sinh viên và thanh niên tiến bộ lúc bấy giờ. Hầu hết các nhạc sĩ từng dấn thân theo cách mạng ai cũng có { nguyện sáng tác bài hát ngợi ca Hồ Chủ tịch để gửi vào đó lòng kính yêu Người, một biểu tượng tuyệt vời của một dân tộc bất khuất và của phong trào cách mạng thế giới.",
@@ -164,14 +164,14 @@ export const baiHatSongs = [
 
   {
     title: "Vì Nhân Dân Quên Mình",
-    fileVoice: "/assets/baiHatQuyDinh/vi_nhan_dan_quen_minh.mp3",
-    fileInst: "/assets/baiHatQuyDinh/vi_nhan_dan_quen_minh_nhac.mp3",
-    lyricsPdf: "/assets/baiHatQuyDinh/lyrics/vi_nhan_dan_quen_minh.pdf",
+    fileVoice: "/baiHatQuyDinh/vi_nhan_dan_quen_minh.mp3",
+    fileInst: "/baiHatQuyDinh/vi_nhan_dan_quen_minh_nhac.mp3",
+    lyricsPdf: "/baiHatQuyDinh/lyrics/vi_nhan_dan_quen_minh.pdf",
 
     author: "Doãn Quang Khải",
     authorBirthYear: 1925,
     authorDeathYear: 2007,
-    authorImage: "/assets/authorImages/doan_quang_khai.jpg",
+    authorImage: "/authorImages/doan_quang_khai.jpg",
     songYear: 1965,
     description: [
       "Năm 1950, Doãn Quang Khải được cử đi học lớp bổ túc đại đội (sau trường này được mang tên Trường Lục quân Trần Quốc Tuấn). Những ngày cuối khoá học 6 tháng tại trường đào tạo sĩ quan lục quân ở Trung Quốc, trường phát động cuộc thi sáng tác ca khúc để kỷ niệm khoá học hữư nghị đầu tiên giữa hai nước sau ngày Trung Quốc giành được độc lập. Sau nhiều đêm suy nghĩ tìm cấu tứ cho sáng tác, tình cờ ông đọc được tờ báo có dòng tít “Vì nhân dân phục vụ” rất trùng với những suy nghĩ của ông về tinh thần quân đội ta. Đêm hôm đó, ông đã thức đến 3 giờ sáng để hoàn thành bài hát với chủ đề Vì nhân dân quên mình.",
@@ -188,14 +188,14 @@ export const baiHatSongs = [
 
   {
     title: "Tiến Bước Dưới Quân Kỳ",
-    fileVoice: "/assets/baiHatQuyDinh/tien_buoc_duoi_quan_ky.mp3",
-    fileInst: "/assets/baiHatQuyDinh/tien_buoc_duoi_quan_ky_nhac.mp3",
-    lyricsPdf: "/assets/baiHatQuyDinh/lyrics/tien_buoc_duoi_quan_ky.pdf",
+    fileVoice: "/baiHatQuyDinh/tien_buoc_duoi_quan_ky.mp3",
+    fileInst: "/baiHatQuyDinh/tien_buoc_duoi_quan_ky_nhac.mp3",
+    lyricsPdf: "/baiHatQuyDinh/lyrics/tien_buoc_duoi_quan_ky.pdf",
 
     author: "Doãn Nho",
     authorBirthYear: 1933,
     authorDeathYear: null,
-    authorImage: "/assets/authorImages/doan_nho.jpg",
+    authorImage: "/authorImages/doan_nho.jpg",
     songYear: 1961,
     description: [
       "Tiến bước dưới quân kỳ là bài hát được nhạc sĩ Doãn Nho viết vào năm 1958 khi nhạc sĩ cùng Đoàn ca múa TCCT nhận nhiệm vụ trở lại chiến trường Điện Biên năm xưa. Nhạc sĩ được phân công đi tiền trạm với 2 nhiệm vụ: chuẩn bị cho đoàn biểu diễn và đi thực tế để sáng tác.",
@@ -212,14 +212,14 @@ export const baiHatSongs = [
 
   {
     title: "Giải Phóng Điện Biên",
-    fileVoice: "/assets/baiHatQuyDinh/giai_phong_dien_bien.mp3",
-    fileInst: "/assets/baiHatQuyDinh/giai_phong_dien_bien_nhac.mp3",
-    lyricsPdf: "/assets/baiHatQuyDinh/lyrics/giai_phong_dien_bien.pdf",
+    fileVoice: "/baiHatQuyDinh/giai_phong_dien_bien.mp3",
+    fileInst: "/baiHatQuyDinh/giai_phong_dien_bien_nhac.mp3",
+    lyricsPdf: "/baiHatQuyDinh/lyrics/giai_phong_dien_bien.pdf",
 
     author: "Đỗ Nhuận",
     authorBirthYear: 1922,
     authorDeathYear: 1991,
-    authorImage: "/assets/authorImages/do_nhuan.jpg",
+    authorImage: "/authorImages/do_nhuan.jpg",
     songYear: 1954,
     description: [
       "Mùa xuân 1954, nhạc sĩ Đỗ Nhuận - Trưởng đoàn văn công Tổng cục chính trị Quân đội nhân dân Việt Nam dẫn đoàn lên Tây Bắc tham gia “Chiến dịch Trần Đình” (mật danh của chiến dịch Biện Biên Phủ).",
@@ -240,9 +240,9 @@ export const baiHatSongs = [
 
   {
     title: "Bác Đang Cùng Chúng Cháu Hành Quân",
-    fileVoice: "/assets/baiHatQuyDinh/bac_dang_cung_chung_chau_hanh_quan.mp3",
-    fileInst: "/assets/baiHatQuyDinh/bac_dang_cung_chung_chau_hanh_quan_nhac.mp3",
-    lyricsPdf: "/assets/baiHatQuyDinh/lyrics/bac_dang_cung_chung_chau_hanh_quan.pdf",
+    fileVoice: "/baiHatQuyDinh/bac_dang_cung_chung_chau_hanh_quan.mp3",
+    fileInst: "/baiHatQuyDinh/bac_dang_cung_chung_chau_hanh_quan_nhac.mp3",
+    lyricsPdf: "/baiHatQuyDinh/lyrics/bac_dang_cung_chung_chau_hanh_quan.pdf",
     description: [
       "Để mô phỏng những bước chân hành quân, tác giả sử dụng thể hành khúc với nhịp 2/4 và một tiết tấu chắc khỏe. Tác giả đã diễn tả những bước chân chiến sĩ thật vững vàng, dứt khoát, bước đi trong một tư thế tự tin, yêu đời, lạc quan ở vị thế của người làm chủ, đang thực thi sứ mạng bảo vệ non sông, Tổ quốc. Hình ảnh Bác luôn xuất hiện trong cả ba lời của bài hành khúc như là trung tâm cảm xúc để tạo nên tác phẩm, đồng thời là trung tâm tình cảm của các chiến sĩ được biểu hiện trong bài này.",
       "Việc tác giả nhắc lại: “Năm xưa Bác cùng đàn con đi chiến dịch, núi rừng vẫn nhớ, suối vẫn trong in hình bóng Bác. Cả đoàn quân tiến theo Người như thác đổ, Điện Biên năm nào vọng lời Bác giữa chiến hào...” đã làm sáng tỏ, đã giải thích được vì sao người ta gọi các chiến sĩ quân đội nhân dân Việt Nam là “bộ đội Cụ Hồ”.",
@@ -261,14 +261,14 @@ export const baiHatSongs = [
 
   {
     title: "Cuộc Đời Vẫn Đẹp Sao",
-    fileVoice: "/assets/baiHatQuyDinh/cuoc_doi_van_dep_sao.mp3",
-    fileInst: "/assets/baiHatQuyDinh/cuoc_doi_van_dep_sao_nhac.mp3",
-    lyricsPdf: "/assets/baiHatQuyDinh/lyrics/cuoc_doi_van_dep_sao.pdf",
+    fileVoice: "/baiHatQuyDinh/cuoc_doi_van_dep_sao.mp3",
+    fileInst: "/baiHatQuyDinh/cuoc_doi_van_dep_sao_nhac.mp3",
+    lyricsPdf: "/baiHatQuyDinh/lyrics/cuoc_doi_van_dep_sao.pdf",
 
     author: "Phan Huỳnh Điểu",
     authorBirthYear: 1924,
     authorDeathYear: 2015,
-    authorImage: "/assets/authorImages/phan_huynh_dieu.jpg",
+    authorImage: "/authorImages/phan_huynh_dieu.jpg",
     songYear: 1971,
     description: [
       "Cuộc đời vẫn đẹp sao được sáng tác vào năm 1970, khi Phan Huỳnh Điểu 46 tuổi và bị thương ở chiến trường. Người bệnh hoạn, da bọc xương nhưng nhờ bác sĩ quân y cho thuốc tốt nên một thời gian ngắn tôi phục hồi sức khỏe. Trong thời gian nằm bệnh, ông được đọc bài thơ của Dương Hương Ly và ngẫm thấy đúng hoàn cảnh mình nên đã nhanh chóng viết Cuộc đời vẫn đẹp sao.",
@@ -288,14 +288,14 @@ export const baiHatSongs = [
 
   {
     title: "Trái Tim Chiến Sĩ",
-    fileVoice: "/assets/baiHatQuyDinh/trai_tim_chien_si.mp3",
-    fileInst: "/assets/baiHatQuyDinh/trai_tim_chien_si_nhac.mp3",
-    lyricsPdf: "/assets/baiHatQuyDinh/lyrics/trai_tim_chien_si.pdf",
+    fileVoice: "/baiHatQuyDinh/trai_tim_chien_si.mp3",
+    fileInst: "/baiHatQuyDinh/trai_tim_chien_si_nhac.mp3",
+    lyricsPdf: "/baiHatQuyDinh/lyrics/trai_tim_chien_si.pdf",
 
     author: "Trần Viết Được",
     authorBirthYear: null,
     authorDeathYear: null,
-    authorImage: "/assets/authorImages/tran_viet_duoc.jpg",
+    authorImage: "/authorImages/tran_viet_duoc.jpg",
 
     songYear: 1979,
 
@@ -321,14 +321,14 @@ export const baiHatSongs = [
 
   {
     title: "Như Có Bác Trong Ngày Đại Thắng",
-    fileVoice: "/assets/baiHatQuyDinh/nhu_co_bac_trong_ngay_dai_thang.mp3",
-    fileInst: "/assets/baiHatQuyDinh/nhu_co_bac_trong_ngay_dai_thang_nhac.mp3",
-    lyricsPdf: "/assets/baiHatQuyDinh/lyrics/nhu_co_bac_trong_ngay_dai_thang.pdf",
+    fileVoice: "/baiHatQuyDinh/nhu_co_bac_trong_ngay_dai_thang.mp3",
+    fileInst: "/baiHatQuyDinh/nhu_co_bac_trong_ngay_dai_thang_nhac.mp3",
+    lyricsPdf: "/baiHatQuyDinh/lyrics/nhu_co_bac_trong_ngay_dai_thang.pdf",
 
     author: "Phạm Tuyên",
     authorBirthYear: 1930,
     authorDeathYear: null,
-    authorImage: "/assets/authorImages/pham_tuyen.jpg",
+    authorImage: "/authorImages/pham_tuyen.jpg",
     songYear: 1975,
     description: [
       'Phạm Tuyên là một nhạc sĩ nổi tiếng người Việt Nam, cựu Chủ tịch Hội Âm nhạc Hà Nội, tác giả của bài hát "Như có Bác trong ngày đại thắng".  Ông sinh ngày 12 tháng 1 năm 1930, quê ở làng Lương Ngọc, xã Thúc Kháng, huyện Bình Giang, tỉnh Hải Dương và là người con thứ 9 của Phạm Quỳnh, một viên quan đại thần và nhà văn hóa thời Nguyễn.',
@@ -365,14 +365,14 @@ export const baiHatSongs = [
 
   {
     title: "Tổ Quốc Trong Tim",
-    fileVoice: "/assets/baiHatQuyDinh/to_quoc_trong_tim.mp3",
-    fileInst: "/assets/baiHatQuyDinh/to_quoc_trong_tim_nhac.mp3",
-    lyricsPdf: "/assets/baiHatQuyDinh/lyrics/to_quoc_trong_tim.pdf",
+    fileVoice: "/baiHatQuyDinh/to_quoc_trong_tim.mp3",
+    fileInst: "/baiHatQuyDinh/to_quoc_trong_tim_nhac.mp3",
+    lyricsPdf: "/baiHatQuyDinh/lyrics/to_quoc_trong_tim.pdf",
 
     author: "Trần Quốc Đạt",
     authorBirthYear: null,
     authorDeathYear: null,
-    authorImage: "/assets/authorImages/tran_quoc_dat.jpg",
+    authorImage: "/authorImages/tran_quoc_dat.jpg",
     songYear: 2012,
     description: [
       "Đại tá - Nhạc sĩ - NSƯT Trần Quốc Đạt, hiện là Giám đốc nhà hát Ca Múa Nhạc Quân đội. Là con trai của một nghệ sĩ suốt đời mặc áo lính và là thành viên của dàn nhạc Ðoàn Ca múa quân đội (nay là Nhà hát Ca múa nhạc quân đội), sau khi tốt nghiệp về sáng tác và diễn xướng kèn cla-ri-nét, nhạc sĩ Trần Quốc Ðạt về đoàn và ngồi đúng vị trí ấy của cha mình năm xưa trong dàn nhạc.",
@@ -399,14 +399,14 @@ export const baiHatSongs = [
 
   {
     title: "Ước Mơ Chiến Sĩ",
-    fileVoice: "/assets/baiHatQuyDinh/uoc_mo_chien_si.mp3",
-    fileInst: "/assets/baiHatQuyDinh/uoc_mo_chien_si_nhac.mp3",
-    lyricsPdf: "/assets/baiHatQuyDinh/lyrics/uoc_mo_chien_si.pdf",
+    fileVoice: "/baiHatQuyDinh/uoc_mo_chien_si.mp3",
+    fileInst: "/baiHatQuyDinh/uoc_mo_chien_si_nhac.mp3",
+    lyricsPdf: "/baiHatQuyDinh/lyrics/uoc_mo_chien_si.pdf",
 
     author: "Lưu Hà An",
     authorBirthYear: null,
     authorDeathYear: null,
-    authorImage: "/assets/authorImages/luu_ha_an.jpg",
+    authorImage: "/authorImages/luu_ha_an.jpg",
     songYear: null,
     description: [
       "Lưu Hà An được biết đến nhiều với vai trò là người sáng tác những bài hát trong các chương trình giải trí của Đài Truyền hình Việt Nam.",
@@ -427,14 +427,14 @@ export const baiHatSongs = [
 
   {
     title: "Thanh Niên Làm Theo Lời Bác",
-    fileVoice: "/assets/baiHatQuyDinh/thanh_nien_lam_theo_loi_bac.mp3",
-    fileInst: "/assets/baiHatQuyDinh/thanh_nien_lam_theo_loi_bac_nhac.mp3",
-    lyricsPdf: "/assets/baiHatQuyDinh/lyrics/thanh_nien_lam_theo_loi_bac.pdf",
+    fileVoice: "/baiHatQuyDinh/thanh_nien_lam_theo_loi_bac.mp3",
+    fileInst: "/baiHatQuyDinh/thanh_nien_lam_theo_loi_bac_nhac.mp3",
+    lyricsPdf: "/baiHatQuyDinh/lyrics/thanh_nien_lam_theo_loi_bac.pdf",
 
     author: "Hoàng Hòa",
     authorBirthYear: 1930,
     authorDeathYear: 2011,
-    authorImage: "/assets/authorImages/hoang_hoa.jpg",
+    authorImage: "/authorImages/hoang_hoa.jpg",
     songYear: 1953,
     description: [
       "Vào một buổi sáng tháng 3-1953, tại khu du kích căn cứ Đông Hồ - Kỳ Anh (Thái Bình), nhạc sĩ Hoàng Hòa đọc được bài tường thuật chuyến đi thăm đơn vị TNXP - Phân đội 312 bảo đảm giao thông ở Việt Bắc ngày 28-3-1951 tại bản Nà Tu (nay là xã Cẩm Giàng, huyện Bạch Thông, tỉnh Bắc Cạn) của Bác trên Báo Cứu quốc.",
@@ -464,14 +464,14 @@ export const baiHatSongs = [
 
   {
     title: "Hát Mãi Khúc Quân Hành",
-    fileVoice: "/assets/baiHatQuyDinh/hat_mai_khuc_quan_hanh.mp3",
-    fileInst: "/assets/baiHatQuyDinh/hat_mai_khuc_quan_hanh_nhac.mp3",
-    lyricsPdf: "/assets/baiHatQuyDinh/lyrics/hat_mai_khuc_quan_hanh.pdf",
+    fileVoice: "/baiHatQuyDinh/hat_mai_khuc_quan_hanh.mp3",
+    fileInst: "/baiHatQuyDinh/hat_mai_khuc_quan_hanh_nhac.mp3",
+    lyricsPdf: "/baiHatQuyDinh/lyrics/hat_mai_khuc_quan_hanh.pdf",
 
     author: "Diệp Minh Tuyền",
     authorBirthYear: 1941,
     authorDeathYear: 1997,
-    authorImage: "/assets/authorImages/diep_minh_tuyen.jpg",
+    authorImage: "/authorImages/diep_minh_tuyen.jpg",
     songYear: 1984,
     description: [
       "Diệp Minh Tuyền (1941-1997) là một nhà thơ nhưng hầu hết lại được biết như là một nhạc sĩ Việt Nam. Hầu hết các sáng tác của ông thuộc dòng nhạc đỏ, được biết tới nhiều hơn cả là bài Hát mãi khúc quân hành.",
@@ -518,27 +518,27 @@ export const baiHatSongs = [
 export const dieuVuSongs = [
   {
     title: "Vũ Điệu Niềm Tin",
-    file: "/assets/dieuVuSinhHoat/vu_dieu_niem_tin.mp3",
-    video: "/assets/video/vu_dieu_niem_tin2.mp4"
+    file: "/dieuVuSinhHoat/vu_dieu_niem_tin.mp3",
+    video: "/video/vu_dieu_niem_tin2.mp4"
   },
   {
     title: "Vũ Điệu Quân Dân",
-    file: "/assets/dieuVuSinhHoat/vu_dieu_quan_dan.mp3",
-    video: "/assets/video/vu_dieu_quan_dan2.mp4"
+    file: "/dieuVuSinhHoat/vu_dieu_quan_dan.mp3",
+    video: "/video/vu_dieu_quan_dan2.mp4"
   },
   {
     title: "Vũ Điệu Lính Trẻ",
-    file: "/assets/dieuVuSinhHoat/vu_dieu_linh_tre.mp3",
-    video: "/assets/video/vu_dieu_linh_tre2.mp4"
+    file: "/dieuVuSinhHoat/vu_dieu_linh_tre.mp3",
+    video: "/video/vu_dieu_linh_tre2.mp4"
   },
   {
     title: "Vũ Điệu Hành Quân",
-    file: "/assets/dieuVuSinhHoat/vu_dieu_hanh_quan.mp3",
-    video: "/assets/video/vu_dieu_hanh_quan2.mp4"
+    file: "/dieuVuSinhHoat/vu_dieu_hanh_quan.mp3",
+    video: "/video/vu_dieu_hanh_quan2.mp4"
   },
   {
     title: "Vũ Điệu Hòa Bình",
-    video: "/assets/video/vu_dieu_hoa_binh2.mp4",
+    video: "/video/vu_dieu_hoa_binh2.mp4",
     videoOnly: true
   },
 ];
