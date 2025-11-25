@@ -4,6 +4,7 @@ import { VitePWA } from "vite-plugin-pwa";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/',
   plugins: [
     react(),
     VitePWA({
@@ -39,6 +40,35 @@ export default defineConfig({
       workbox: {
         globPatterns: ["**/*.{js,css,html,png,svg,ico}"],
       },
-    }),
+    }), 
   ],
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+        entryFileNames: 'assets/js/[name].[hash].js',
+        chunkFileNames: 'assets/js/[name].[hash].js',
+        assetFileNames: (assetInfo) => {
+          const info = assetInfo.name.split('.');
+          const ext = info[info.length - 1];
+          if (/png|jpe?g|svg|gif|webp|avif|ico/i.test(ext)) {
+            return 'assets/images/[name].[hash][extname]';
+          }
+          if (/mp3|wav|ogg|m4a/i.test(ext)) {
+            return 'assets/audio/[name].[hash][extname]';
+          }
+          if (/mp4|webm|ogv/i.test(ext)) {
+            return 'assets/video/[name].[hash][extname]';
+          }
+          if (/pdf|docx?|xlsx?/i.test(ext)) {
+            return 'assets/documents/[name].[hash][extname]';
+          }
+          return 'assets/[name].[hash][extname]';
+        }
+      }
+    }
+  }
 });
