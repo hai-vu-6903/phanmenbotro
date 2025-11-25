@@ -60,7 +60,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('/src/assets/img/layer3.png') no-repeat center center;
+  background: url('/assets/img/layer3.png') no-repeat center center;
   background-size: 110% auto;
   animation: waveFlag 8s ease-in-out infinite;
   transform-origin: center;
@@ -75,7 +75,7 @@
   bottom: 0;
   width: 400px;
   height: 400px;
-  background: url('/src/assets/img/layer4.png') no-repeat left bottom;
+  background: url('/assets/img/layer4.png') no-repeat left bottom;
   background-size: contain;
   z-index: 1;
   transform: translate(-20px, 20px);
