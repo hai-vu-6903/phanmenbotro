@@ -180,17 +180,19 @@
   z-index: 2;
   opacity: 0;
   animation: slideInUp 1s ease-out 1s forwards;
-  background: url('../assets/img/Picture2.png') no-repeat center center;
+  background: white;
   background-size: contain;
   width: 95%;
   max-width: 900px;
-  height: 320px;
+  min-height: 200px;
+  max-height: 400px;
   left: 0;
   right: 0;
-  bottom: 50px;
+  bottom: 100px;
   margin: 0 auto;
-  padding: 1.5rem 20px;
+  padding: 1rem 20px;
   border-radius: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
@@ -198,6 +200,7 @@
   align-items: center;
   transform: translateY(100%);
   transform-origin: center bottom;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .menu-title {

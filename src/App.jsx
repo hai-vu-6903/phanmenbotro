@@ -6,6 +6,7 @@ import MenuScreen from './components/MenuScreen'
 import PlayerScreen from './components/PlayerScreen'
 import Quiz from './components/Quiz'
 import VRPage from './components/VRPage'
+import InstallPWA from './components/InstallPWA'
 
 import usePlayer from './hooks/usePlayer'
 
@@ -44,6 +45,7 @@ function App() {
 
   return (
     <>
+      <InstallPWA />
       {screen === "welcome" && <WelcomeScreen onStart={() => setScreen("menu")} />}
       {screen === "menu" && <MenuScreen onSelect={selectMode} />}
       {screen === "player" && (

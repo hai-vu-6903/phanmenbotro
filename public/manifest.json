@@ -1,0 +1,40 @@
+{
+  "name": "Phần mềm học tập bổ trợ HSQ-CS",
+  "short_name": "HSQ-BS",
+  "description": "Phần Mềm Hỗ Trợ Học Tập Cho Hạ Sĩ Quan - Binh Sĩ",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#1a2e1a",
+  "background_color": "#1a2e1a",
+  "icons": [
+    {
+      "src": "/img/pwa-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/pwa-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "img/screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Màn hình chính"
+    },
+    {
+      "src": "img/screenshot2.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Màn hình di động"
+    }
+  ]
+}
