@@ -6,19 +6,17 @@ import { FaArrowLeft, FaVideo, FaPlay, FaPause, FaFilePdf, FaInfoCircle } from "
 import "./PlayerScreen.css";
 
 // Background images from public directory
-const bg1 = '/img/bg/dsc2887-1756784423619427993371.jpg';
-const bg2 = '/img/bg/img0631-17567967413481704453104.jpg';
-const bg3 = '/img/bg/img0634-1756796778565698413943.jpg';
-const bg4 = '/img/bg/img0638-17567968630631441447953.jpg';
-const bg5 = '/img/bg/img0633-17567968335831640903623.jpg';
-const bg6 = '/img/bg/img0641-17567968937181022945454.jpg';
-const bg7 = '/img/bg/img0691-17567975101461917352448.jpg';
-const bg8 = '/img/bg/jum00459-1756786775947316074236.jpg';
-const bg9 = '/img/bg/jum09944-1756782479875412640196.jpg';
-const bg10 = '/img/bg/khi-sy-quan-hai-quan-1756773198563986810632.jpg';
-const bg11 = '/img/bg/photo-library-20250902124904-9024ff81-7b2c-48c2-8359-c9cfe3999053-atx-8457.jpg';
+const bg1 = '/img/bg/phongHoa1.jpg';
+const bg2 = '/img/bg/phongHoa2.jpg';
+const bg3 = '/img/bg/phongHoa3.jpg';
+const bg4 = '/img/bg/phongHoa4.jpg';
+const bg5 = '/img/bg/phongHoa5.jpg';
+const bg6 = '/img/bg/phongHoa6.jpg';
+const bg7 = '/img/bg/phongHoa7.jpg';
+const bg8 = '/img/bg/phongHoa8.jpg';
+const bg9 = '/img/bg/phongHoa9.jpg';
 
-const allBackgrounds = [bg1, bg2, bg3, bg4, bg5, bg6, bg7, bg8, bg9, bg10, bg11];
+const allBackgrounds = [bg1, bg2, bg3, bg4, bg5, bg6, bg7, bg8, bg9];
 
 // Function to get a random background image
 const getRandomBg = () => {

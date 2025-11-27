@@ -8,7 +8,15 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'robots.txt', 'img/logo.png'],
+      includeAssets: [
+        "favicon.ico",
+        "robots.txt",
+        "img/logo.png",
+        "baiHatQuyDinh/**/*",
+        "dieuVuSinhHoat/**/*",
+        "lyrics/**/*",
+        "nhacNghiLe/**/*",
+      ],
       devOptions: {
         enabled: true,
         type: 'module',
@@ -20,6 +28,50 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
         runtimeCaching: [
+          /* ======== AUDIO: baiHatQuyDinh ======== */
+          {
+            urlPattern: /\/baiHatQuyDinh\/.*\.(?:mp3|wav|ogg)$/i,
+            handler: "CacheFirst",
+            options: {
+              cacheName: "baiHatQuyDinh-cache",
+              expiration: { maxEntries: 100, maxAgeSeconds: 60 * 60 * 24 * 60 },
+              cacheableResponse: { statuses: [0, 200] }
+            }
+          },
+
+          /* ======== AUDIO + VIDEO: dieuVu ======== */
+          {
+            urlPattern: /\/dieuVu\/.*\.(?:mp3|wav|ogg|mp4|webm|avi)$/i,
+            handler: "CacheFirst",
+            options: {
+              cacheName: "dieuVu-cache",
+              expiration: { maxEntries: 100, maxAgeSeconds: 60 * 60 * 24 * 60 },
+              cacheableResponse: { statuses: [0, 200] }
+            }
+          },
+
+          /* ======== PDF: lyrics ======== */
+          {
+            urlPattern: /\/lyrics\/.*\.pdf$/i,
+            handler: "CacheFirst",
+            options: {
+              cacheName: "lyrics-pdf-cache",
+              expiration: { maxEntries: 50, maxAgeSeconds: 60 * 60 * 24 * 60 },
+              cacheableResponse: { statuses: [0, 200] }
+            }
+          },
+
+          /* ======== AUDIO: nhacNghiLe ======== */
+          {
+            urlPattern: /\/nhacNghiLe\/.*\.(?:mp3|wav|ogg)$/i,
+            handler: "CacheFirst",
+            options: {
+              cacheName: "nhacNghiLe-cache",
+              expiration: { maxEntries: 100, maxAgeSeconds: 60 * 60 * 24 * 60 },
+              cacheableResponse: { statuses: [0, 200] }
+            }
+          },
+          /* ======== CDN JSDELIVR ======== */
           {
             urlPattern: /^https:\/\/cdn\.jsdelivr\.net/,
             handler: 'StaleWhileRevalidate',

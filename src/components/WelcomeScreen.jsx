@@ -8,49 +8,30 @@ export default function WelcomeScreen({ onStart }) {
   return (
     <div className="welcome-screen">
       {/* Header with logo and title */}
-      <div className="museum-header" style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 1000 }}>
-        <Container>
-          <div className="d-flex align-items-center justify-content-center">
-            <img 
-              src="/img/logo.png" 
-              alt="Logo 1" 
-              className="d-none d-md-block" 
-              style={{ 
-                height: '40px', 
-                marginRight: '15px',
-                transition: 'all 0.3s ease'
-              }} 
-            />
-            <h1 className="museum-title" style={{ fontSize: '1.8rem', marginBottom: 0 }}>
-              <span style={{ color: 'gold' }}>★</span>
-              <span style={{
-                animation: 'textGlow 3s ease-in-out infinite',
-                display: 'inline-block',
-                padding: '0 5px'
-              }}>
-                PHÒNG CHỐNG TỐT - CHIẾN ĐẤU GIỎI
-              </span>
-              <span style={{ color: 'gold' }}>★</span>
-            </h1>
-            <img 
-              src="/img/logo2.png" 
-              alt="Logo 2" 
-              className="d-none d-md-block" 
-              style={{ 
-                height: '40px', 
-                marginLeft: '15px',
-                transition: 'all 0.3s ease'
-              }} 
-            />
-          </div>
-        </Container>
+      <div className="museum-header">
+        <div className="header-content">
+          <img 
+            src="/img/logo.png" 
+            alt="Logo 1" 
+            className="d-none d-md-block header-logo"
+          />
+          <h1 className="museum-title">
+            PHÒNG CHỐNG TỐT - CHIẾN ĐẤU GIỎI
+          </h1>
+          <img 
+            src="/img/logo3.png" 
+            alt="Logo 2" 
+            className="d-none d-md-block header-logo"
+          />
+        </div>
       </div>
 
       {/* Main content */}
-      <Container className="bg-1 h-100 d-flex align-items-center">
-        <Row className="justify-content-center w-100">
-          <Col xs={12} md={10} lg={8} className="text-center">
-            <div className="content-box" style={{ marginTop: '100px' }}>
+      <div className="main-content">
+        <Container className="h-100 d-flex align-items-center">
+          <Row className="justify-content-center w-100">
+            <Col xs={12} md={10} lg={8} className="text-center">
+              <div className="content-box">
               <h1 className="text-white fw-bold mb-4">
                 MỘT SỐ NỘI DUNG BỔ TRỢ
                 <br />
@@ -66,7 +47,7 @@ export default function WelcomeScreen({ onStart }) {
                 borderRadius: '30px',
                 display: 'inline-block'
               }}>Tác giả: Nguyễn Minh Trí</p>
-              <br />
+              {/* <br /> */}
               <Button 
                 variant="primary" 
                 onClick={onStart}
@@ -74,10 +55,11 @@ export default function WelcomeScreen({ onStart }) {
               >
                 <FontAwesomeIcon icon={faPlay} className="me-2" /> Bắt đầu
               </Button>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </div>
   );
 }

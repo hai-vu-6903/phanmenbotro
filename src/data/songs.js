@@ -62,7 +62,7 @@ export const baiHatSongs = [
     title: "Tiến Quân Ca",
     fileVoice: "/baiHatQuyDinh/tien_quan_ca.mp3",
     fileInst: "/baiHatQuyDinh/tien_quan_ca_nhac.mp3",
-    lyricsPdf: "/baiHatQuyDinh/lyrics/tien_quan_ca.pdf",
+    lyricsPdf: "/lyrics/tien_quan_ca.pdf",
 
     author: "Văn Cao",
     authorBirthYear: 1923,
@@ -89,7 +89,7 @@ export const baiHatSongs = [
     title: "Quốc Tế Ca",
     fileVoice: "/baiHatQuyDinh/quocte_ca.mp3",
     fileInst: "/baiHatQuyDinh/quocte_ca_nhac.mp3",
-    lyricsPdf: "/baiHatQuyDinh/lyrics/quoc_te_ca.pdf",
+    lyricsPdf: "/lyrics/quoc_te_ca.pdf",
 
     author: "Eugène Pottier (lời), Pierre Degeyter (nhạc)",
     authorBirthYear: 1816,
@@ -115,7 +115,7 @@ export const baiHatSongs = [
     title: "Chào Mừng Đảng Cộng Sản Việt Nam",
     fileVoice: "/baiHatQuyDinh/chao_mung_dang_cong_san_viet_nam.mp3",
     fileInst: "/baiHatQuyDinh/chao_mung_dang_cong_san_viet_nam_nhac.mp3",
-    lyricsPdf: "/baiHatQuyDinh/lyrics/chao_mung_dang_cong_san_viet_nam.pdf",
+    lyricsPdf: "/lyrics/chao_mung_dang_cong_san_viet_nam.pdf",
 
     author: "Đỗ Minh",
     authorBirthYear: 1926,
@@ -142,7 +142,7 @@ export const baiHatSongs = [
     title: "Ca Ngợi Hồ Chủ Tịch",
     fileVoice: "/baiHatQuyDinh/ca_ngoi_ho_chu_tich.mp3",
     fileInst: "/baiHatQuyDinh/ca_ngoi_ho_chu_tich_nhac.mp3",
-    lyricsPdf: "/baiHatQuyDinh/lyrics/ca_ngoi_ho_chu_tich.pdf",
+    lyricsPdf: "/lyrics/ca_ngoi_ho_chu_tich.pdf",
 
     author: "Lưu Hữu Phước",
     authorBirthYear: 1921,
@@ -166,7 +166,7 @@ export const baiHatSongs = [
     title: "Vì Nhân Dân Quên Mình",
     fileVoice: "/baiHatQuyDinh/vi_nhan_dan_quen_minh.mp3",
     fileInst: "/baiHatQuyDinh/vi_nhan_dan_quen_minh_nhac.mp3",
-    lyricsPdf: "/baiHatQuyDinh/lyrics/vi_nhan_dan_quen_minh.pdf",
+    lyricsPdf: "/lyrics/vi_nhan_dan_quen_minh.pdf",
 
     author: "Doãn Quang Khải",
     authorBirthYear: 1925,
@@ -190,7 +190,7 @@ export const baiHatSongs = [
     title: "Tiến Bước Dưới Quân Kỳ",
     fileVoice: "/baiHatQuyDinh/tien_buoc_duoi_quan_ky.mp3",
     fileInst: "/baiHatQuyDinh/tien_buoc_duoi_quan_ky_nhac.mp3",
-    lyricsPdf: "/baiHatQuyDinh/lyrics/tien_buoc_duoi_quan_ky.pdf",
+    lyricsPdf: "/lyrics/tien_buoc_duoi_quan_ky.pdf",
 
     author: "Doãn Nho",
     authorBirthYear: 1933,
@@ -214,7 +214,7 @@ export const baiHatSongs = [
     title: "Giải Phóng Điện Biên",
     fileVoice: "/baiHatQuyDinh/giai_phong_dien_bien.mp3",
     fileInst: "/baiHatQuyDinh/giai_phong_dien_bien_nhac.mp3",
-    lyricsPdf: "/baiHatQuyDinh/lyrics/giai_phong_dien_bien.pdf",
+    lyricsPdf: "/lyrics/giai_phong_dien_bien.pdf",
 
     author: "Đỗ Nhuận",
     authorBirthYear: 1922,
@@ -242,7 +242,7 @@ export const baiHatSongs = [
     title: "Bác Đang Cùng Chúng Cháu Hành Quân",
     fileVoice: "/baiHatQuyDinh/bac_dang_cung_chung_chau_hanh_quan.mp3",
     fileInst: "/baiHatQuyDinh/bac_dang_cung_chung_chau_hanh_quan_nhac.mp3",
-    lyricsPdf: "/baiHatQuyDinh/lyrics/bac_dang_cung_chung_chau_hanh_quan.pdf",
+    lyricsPdf: "/lyrics/bac_dang_cung_chung_chau_hanh_quan.pdf",
     description: [
       "Để mô phỏng những bước chân hành quân, tác giả sử dụng thể hành khúc với nhịp 2/4 và một tiết tấu chắc khỏe. Tác giả đã diễn tả những bước chân chiến sĩ thật vững vàng, dứt khoát, bước đi trong một tư thế tự tin, yêu đời, lạc quan ở vị thế của người làm chủ, đang thực thi sứ mạng bảo vệ non sông, Tổ quốc. Hình ảnh Bác luôn xuất hiện trong cả ba lời của bài hành khúc như là trung tâm cảm xúc để tạo nên tác phẩm, đồng thời là trung tâm tình cảm của các chiến sĩ được biểu hiện trong bài này.",
       "Việc tác giả nhắc lại: “Năm xưa Bác cùng đàn con đi chiến dịch, núi rừng vẫn nhớ, suối vẫn trong in hình bóng Bác. Cả đoàn quân tiến theo Người như thác đổ, Điện Biên năm nào vọng lời Bác giữa chiến hào...” đã làm sáng tỏ, đã giải thích được vì sao người ta gọi các chiến sĩ quân đội nhân dân Việt Nam là “bộ đội Cụ Hồ”.",
@@ -263,7 +263,7 @@ export const baiHatSongs = [
     title: "Cuộc Đời Vẫn Đẹp Sao",
     fileVoice: "/baiHatQuyDinh/cuoc_doi_van_dep_sao.mp3",
     fileInst: "/baiHatQuyDinh/cuoc_doi_van_dep_sao_nhac.mp3",
-    lyricsPdf: "/baiHatQuyDinh/lyrics/cuoc_doi_van_dep_sao.pdf",
+    lyricsPdf: "/lyrics/cuoc_doi_van_dep_sao.pdf",
 
     author: "Phan Huỳnh Điểu",
     authorBirthYear: 1924,
@@ -290,7 +290,7 @@ export const baiHatSongs = [
     title: "Trái Tim Chiến Sĩ",
     fileVoice: "/baiHatQuyDinh/trai_tim_chien_si.mp3",
     fileInst: "/baiHatQuyDinh/trai_tim_chien_si_nhac.mp3",
-    lyricsPdf: "/baiHatQuyDinh/lyrics/trai_tim_chien_si.pdf",
+    lyricsPdf: "/lyrics/trai_tim_chien_si.pdf",
 
     author: "Trần Viết Được",
     authorBirthYear: null,
@@ -323,7 +323,7 @@ export const baiHatSongs = [
     title: "Như Có Bác Trong Ngày Đại Thắng",
     fileVoice: "/baiHatQuyDinh/nhu_co_bac_trong_ngay_dai_thang.mp3",
     fileInst: "/baiHatQuyDinh/nhu_co_bac_trong_ngay_dai_thang_nhac.mp3",
-    lyricsPdf: "/baiHatQuyDinh/lyrics/nhu_co_bac_trong_ngay_dai_thang.pdf",
+    lyricsPdf: "/lyrics/nhu_co_bac_trong_ngay_dai_thang.pdf",
 
     author: "Phạm Tuyên",
     authorBirthYear: 1930,
@@ -367,7 +367,7 @@ export const baiHatSongs = [
     title: "Tổ Quốc Trong Tim",
     fileVoice: "/baiHatQuyDinh/to_quoc_trong_tim.mp3",
     fileInst: "/baiHatQuyDinh/to_quoc_trong_tim_nhac.mp3",
-    lyricsPdf: "/baiHatQuyDinh/lyrics/to_quoc_trong_tim.pdf",
+    lyricsPdf: "/lyrics/to_quoc_trong_tim.pdf",
 
     author: "Trần Quốc Đạt",
     authorBirthYear: null,
@@ -401,7 +401,7 @@ export const baiHatSongs = [
     title: "Ước Mơ Chiến Sĩ",
     fileVoice: "/baiHatQuyDinh/uoc_mo_chien_si.mp3",
     fileInst: "/baiHatQuyDinh/uoc_mo_chien_si_nhac.mp3",
-    lyricsPdf: "/baiHatQuyDinh/lyrics/uoc_mo_chien_si.pdf",
+    lyricsPdf: "/lyrics/uoc_mo_chien_si.pdf",
 
     author: "Lưu Hà An",
     authorBirthYear: null,
@@ -429,7 +429,7 @@ export const baiHatSongs = [
     title: "Thanh Niên Làm Theo Lời Bác",
     fileVoice: "/baiHatQuyDinh/thanh_nien_lam_theo_loi_bac.mp3",
     fileInst: "/baiHatQuyDinh/thanh_nien_lam_theo_loi_bac_nhac.mp3",
-    lyricsPdf: "/baiHatQuyDinh/lyrics/thanh_nien_lam_theo_loi_bac.pdf",
+    lyricsPdf: "/lyrics/thanh_nien_lam_theo_loi_bac.pdf",
 
     author: "Hoàng Hòa",
     authorBirthYear: 1930,
@@ -466,7 +466,7 @@ export const baiHatSongs = [
     title: "Hát Mãi Khúc Quân Hành",
     fileVoice: "/baiHatQuyDinh/hat_mai_khuc_quan_hanh.mp3",
     fileInst: "/baiHatQuyDinh/hat_mai_khuc_quan_hanh_nhac.mp3",
-    lyricsPdf: "/baiHatQuyDinh/lyrics/hat_mai_khuc_quan_hanh.pdf",
+    lyricsPdf: "/lyrics/hat_mai_khuc_quan_hanh.pdf",
 
     author: "Diệp Minh Tuyền",
     authorBirthYear: 1941,
