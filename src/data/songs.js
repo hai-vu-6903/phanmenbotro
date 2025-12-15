@@ -538,8 +538,8 @@ export const dieuVuSongs = [
   },
   {
     title: "Vũ Điệu Hòa Bình",
+    file: "/dieuVuSinhHoat/vu_dieu_hoa_binh.mp3",
     video: "/video/vu_dieu_hoa_binh2.mp4",
-    videoOnly: true
   },
 ];
 

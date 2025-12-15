@@ -7,6 +7,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import { registerSW } from 'virtual:pwa-register';
 
 const updateSW = registerSW({
+  immediate: true,
   onNeedRefresh() {
     // Khi có bản SW mới -> hỏi user có muốn cập nhật không
     if (confirm("Có phiên bản mới. Bạn muốn tải lại không?")) {

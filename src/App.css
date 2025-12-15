@@ -40,3 +40,30 @@
 .read-the-docs {
   color: #888;
 }
+
+.offline-loader {
+  height: 100vh;
+  background: #1a2e1a;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.progress {
+  width: 70%;
+  height: 12px;
+  background: #444;
+  margin: 12px 0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #4caf50;
+  transition: width 0.3s;
+}
+

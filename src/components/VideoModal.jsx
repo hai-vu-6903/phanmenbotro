@@ -20,6 +20,7 @@ export default function VideoModal({ show, url, onClose }) {
       <video
         src={url}
         controls
+        preload="auto"
         autoPlay
         className="w-100"
         style={{ maxWidth: "900px" }}
